@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color:white
+}
+.box {
+    text-align: center;
+}
+h2 {
+    margin-bottom: 10px;
+}
+input {
+    height:20px
+}
+label {
+    font-size: larger;
+}
