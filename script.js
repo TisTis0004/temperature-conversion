@@ -8,11 +8,11 @@ submit.onclick = () => {
     let temp = parseInt(input.value)
     if(f.checked){
         temp = temp * 1.8 + 32
-        result.innerText = `The temperature is ${temp.toFixed(2)} F.`
+        result.innerText = `The temperature is ${temp.toFixed(2)} °F.`
     }
     else if(c.checked){
         temp = (temp - 32) * 0.55
-        result.innerText = `The temperature is ${temp.toFixed(2)} C.`
+        result.innerText = `The temperature is ${temp.toFixed(2)} °C.`
     }
     else if(isNaN(temp))
         result.innerText = `Please enter a temperature first.`
